@@ -193,6 +193,12 @@ header .barra .lista li:nth-last-child(2) {
   content: '\e9d7';
   color: #1b6918;
 }
+.mangas .tarjetas .row1 .cuadrar li a .estrella-media:before,
+.mangas .tarjetas .row2 .cuadrar li a .estrella-media:before {
+  font-family: 'iconos';
+  content: '\e9d8';
+  color: #1b6918;
+}
 .mangas .tarjetas .row1 .fuera,
 .mangas .tarjetas .row2 .fuera,
 .mangas .tarjetas .row1 .fueraf,
