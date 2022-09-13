@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("../font/poppins/Poppins-Regular.otf") format('truetype');
+}
+@font-face {
+  font-family: 'iconos';
+  src: url("../font/iconos/icomoon.eot?lmozq2");
+  src: url("../font/iconos/icomoon.eot?lmozq2#iefix") format('embedded-opentype'), url("../font/iconos/icomoon.ttf?lmozq2") format('truetype'), url("../font/iconos/icomoon.woff?lmozq2") format('woff'), url("../font/iconos/icomoon.svg?lmozq2#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+* {
+  font-family: 'Poppins';
+}
+header {
+  background-color: #1b6918;
+}
+header .barra .logo {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 30px;
+  position: relative;
+  top: -5px;
+  width: 200px;
+  display: inline-block;
+}
+header .barra .lista {
+  position: relative;
+  top: -20px;
+  display: inline-block;
+  margin-left: 0px;
+}
+header .barra .lista li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+header .barra .lista li a {
+  text-decoration: none;
+  color: #fefefe;
+  font-size: 12px;
+}
+header .barra .lista li a .casa:before {
+  font-family: 'iconos';
+  content: "\e902";
+  margin-right: 3px;
+}
+header .barra .lista li a .carpeta:before {
+  font-family: 'iconos';
+  content: "\e901";
+  margin-right: 3px;
+}
+header .barra .lista li a .lupa:before {
+  font-family: 'iconos';
+  content: '\e986';
+  border-radius: 15px;
+  background-color: #fefefe;
+  padding: 8px;
+  color: #1b6918;
+}
+header .barra .lista li:nth-last-child(2) {
+  margin-right: 200px;
+}
+.opciones ul {
+  margin-left: 265px;
+  margin-bottom: 80px;
+}
+.opciones ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+.opciones ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  color: #4d4d4d;
+}
+.opciones ul li a .discord:before {
+  font-family: 'iconos';
+  content: "\e903";
+  margin-right: 3px;
+}
+.opciones ul li a .opciones:before {
+  font-family: 'iconos';
+  content: "\e995";
+  margin-right: 3px;
+}
+.mangas .barra h2 {
+  position: relative;
+  top: -5px;
+  margin-bottom: 0px;
+  margin-left: 300px;
+  color: #363636;
+}
+.mangas .barra .linea {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.mangas .barra .anuncio .rayo:before {
+  font-family: 'iconos';
+  content: "\e900";
+  margin-right: 3px;
+  border: 1px solid #1b6918;
+  background-color: #1b6918;
+  color: #fefefe;
+  font-size: 15px;
+  padding: 10px 10px;
+  margin-right: 0px;
+}
+.mangas .barra .anuncio .rayo:after {
+  position: relative;
+  left: -12px;
+  top: 8px;
+  font-size: 38px;
+  content: '>';
+  color: #1b6918;
+  margin-left: 0px;
+}
+.mangas .tarjetas .row1 {
+  display: inline-block;
+  width: 500px;
+  margin-left: 300px;
+  margin-right: 200px;
+}
+.mangas .tarjetas .row1 .titulos img {
+  width: 150px;
+  display: inline-block;
+}
+.mangas .tarjetas .row1 .titulos h6 {
+  display: inline;
+  text-align: top;
+}
+.mangas .tarjetas .row1 .titulos ul {
+  display: inline;
+}
+.mangas .tarjetas .row1 .titulos li {
+  list-style: none;
+  display: inline;
+}
+.mangas .tarjetas .row1 .titulos li a {
+  text-decoration: none;
+}
+.mangas .tarjetas .row2 {
+  display: inline-block;
+}
+footer {
+  margin-top: 50px;
+}
+footer ul {
+  margin-left: 500px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+footer ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-decoration: none;
+}
+footer ul li span {
+  margin-left: 10px;
+}
+footer p {
+  text-align: center;
+  margin-top: 15px;
+  color: #bfbfbf;
+  font-size: 12px;
+}
