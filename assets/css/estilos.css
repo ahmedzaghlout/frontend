@@ -120,31 +120,103 @@ header .barra .lista li:nth-last-child(2) {
   margin-left: 0px;
 }
 .mangas .tarjetas .row1 {
-  display: inline-block;
-  width: 500px;
   margin-left: 300px;
-  margin-right: 200px;
 }
-.mangas .tarjetas .row1 .titulos img {
+.mangas .tarjetas .row2 {
+  margin-left: 150px;
+}
+.mangas .tarjetas .row1,
+.mangas .tarjetas .row2 {
+  width: 400px;
+  display: inline-block;
+}
+.mangas .tarjetas .row1 img,
+.mangas .tarjetas .row2 img {
   width: 150px;
   display: inline-block;
 }
-.mangas .tarjetas .row1 .titulos h6 {
-  display: inline;
-  text-align: top;
-}
-.mangas .tarjetas .row1 .titulos ul {
-  display: inline;
-}
-.mangas .tarjetas .row1 .titulos li {
-  list-style: none;
-  display: inline;
-}
-.mangas .tarjetas .row1 .titulos li a {
-  text-decoration: none;
-}
-.mangas .tarjetas .row2 {
+.mangas .tarjetas .row1 .cuadrar,
+.mangas .tarjetas .row2 .cuadrar {
   display: inline-block;
+}
+.mangas .tarjetas .row1 .cuadrar li,
+.mangas .tarjetas .row2 .cuadrar li {
+  list-style: none;
+}
+.mangas .tarjetas .row1 .cuadrar li h6,
+.mangas .tarjetas .row2 .cuadrar li h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.mangas .tarjetas .row1 .cuadrar li .estrellas,
+.mangas .tarjetas .row2 .cuadrar li .estrellas {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+.mangas .tarjetas .row1 .cuadrar li .estrellas li,
+.mangas .tarjetas .row2 .cuadrar li .estrellas li {
+  list-style: none;
+  display: inline-block;
+}
+.mangas .tarjetas .row1 .cuadrar li a,
+.mangas .tarjetas .row2 .cuadrar li a {
+  text-decoration: none;
+  color: #363636;
+}
+.mangas .tarjetas .row1 .cuadrar li a .estrella,
+.mangas .tarjetas .row2 .cuadrar li a .estrella {
+  margin-left: 5px;
+}
+.mangas .tarjetas .row1 .cuadrar li a .estrella:before,
+.mangas .tarjetas .row2 .cuadrar li a .estrella:before {
+  font-family: 'iconos';
+  content: "\e9d9";
+  color: #1b6918;
+}
+.mangas .tarjetas .row1 .cuadrar li a .estrella-vacia:before,
+.mangas .tarjetas .row2 .cuadrar li a .estrella-vacia:before {
+  font-family: 'iconos';
+  content: '\e9d7';
+  color: #1b6918;
+}
+.mangas .tarjetas .row1 .fuera,
+.mangas .tarjetas .row2 .fuera,
+.mangas .tarjetas .row1 .fueraf,
+.mangas .tarjetas .row2 .fueraf {
+  display: inline-block;
+}
+.mangas .tarjetas .row1 .fuera .new,
+.mangas .tarjetas .row2 .fuera .new,
+.mangas .tarjetas .row1 .fueraf .new,
+.mangas .tarjetas .row2 .fueraf .new {
+  font-size: 10px;
+  border: 1px solid #bb2824;
+  background-color: #bb2824;
+  color: #fefefe;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+.mangas .tarjetas .row1 .fuera .fecha,
+.mangas .tarjetas .row2 .fuera .fecha,
+.mangas .tarjetas .row1 .fueraf .fecha,
+.mangas .tarjetas .row2 .fueraf .fecha {
+  font-size: 10px;
+  color: #b4b4b4;
+  margin-left: 8px;
+}
+.mangas .tarjetas .row1 .fuera button,
+.mangas .tarjetas .row2 .fuera button,
+.mangas .tarjetas .row1 .fueraf button,
+.mangas .tarjetas .row2 .fueraf button {
+  font-size: 10px;
+  background-color: #a09f9f;
+  color: #ece5e5;
+  border-radius: 30px;
+}
+.mangas .tarjetas .row1 .fueraf,
+.mangas .tarjetas .row2 .fueraf {
+  margin-bottom: 160px;
 }
 footer {
   margin-top: 50px;
