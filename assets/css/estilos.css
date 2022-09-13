@@ -98,6 +98,8 @@ header .barra .lista li:nth-last-child(2) {
 .mangas .barra .linea {
   margin-top: 0px;
   margin-bottom: 40px;
+  width: 930px;
+  margin-left: 300px;
 }
 .mangas .barra .anuncio .rayo:before {
   font-family: 'iconos';
@@ -125,6 +127,12 @@ header .barra .lista li:nth-last-child(2) {
 .mangas .tarjetas .row2 {
   margin-left: 150px;
 }
+.mangas .tarjetas .linea {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 930px;
+  margin-left: 300px;
+}
 .mangas .tarjetas .row1,
 .mangas .tarjetas .row2 {
   width: 400px;
@@ -138,10 +146,15 @@ header .barra .lista li:nth-last-child(2) {
 .mangas .tarjetas .row1 .cuadrar,
 .mangas .tarjetas .row2 .cuadrar {
   display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  top: -80px;
+  left: -20px;
 }
 .mangas .tarjetas .row1 .cuadrar li,
 .mangas .tarjetas .row2 .cuadrar li {
   list-style: none;
+  margin-bottom: 10px;
 }
 .mangas .tarjetas .row1 .cuadrar li h6,
 .mangas .tarjetas .row2 .cuadrar li h6 {
