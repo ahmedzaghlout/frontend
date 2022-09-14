@@ -140,21 +140,21 @@ header .barra .lista li:nth-last-child(2) {
 }
 .mangas .tarjetas .row1 img,
 .mangas .tarjetas .row2 img {
-  width: 150px;
+  width: 100px;
   display: inline-block;
 }
 .mangas .tarjetas .row1 .cuadrar,
 .mangas .tarjetas .row2 .cuadrar {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 10px;
   position: relative;
-  top: -80px;
+  top: -15px;
   left: -20px;
 }
 .mangas .tarjetas .row1 .cuadrar li,
 .mangas .tarjetas .row2 .cuadrar li {
   list-style: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .mangas .tarjetas .row1 .cuadrar li h6,
 .mangas .tarjetas .row2 .cuadrar li h6 {
